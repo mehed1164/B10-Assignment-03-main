@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterioent</title>
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+    <!-- Daisy UI,Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'rintero-primary': '#ABEF5F',
+                        'rintero-secondary': 'rgba(171, 239, 95, 0.5)',
+                        'background-primary': '#F4F4F4',
+
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="bg-background-primary font-manrope">
+
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn btn-ghost text-xl font-bold">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-rintero-primary inline-flex items-center justify-center text-black relative z-10">
+                            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                        <h1 class="text-3xl font-bold"> Rinterio</h1>
+                    </div>
+                    <!-- <a class="btn btn-ghost text-3xl font-bold">Rinterio</a> -->
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="hover:font-bold"><a>Home</a></li>
+                        <li class="hover:font-bold"><a>Service</a></li>
+                        <li class="hover:font-bold"><a>Portfolio</a></li>
+                        <li class="hover:font-bold"><a>Blogs</a></li>
+                        <li class="hover:font-bold"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-3">
+                    <div
+                        class="flex-shrink-0 w-8 h-8 rounded-full bg-white inline-flex items-center justify-center text-black relative z-10">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div
+                        class="flex-shrink-0 w-8 h-8 rounded-full bg-white inline-flex items-center justify-center text-black relative z-10">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <a class="btn rounded-full bg-rintero-primary text-xl font-bold">Book Consult
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-black inline-flex items-center justify-center text-white relative z-10">
+                            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
